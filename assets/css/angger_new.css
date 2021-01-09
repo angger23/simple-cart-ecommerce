@@ -1,0 +1,163 @@
+.nama{
+	font-size: 60px;
+	text-transform: uppercase;
+	font-family: 'Iceberg';
+	color: #fff;
+	text-rendering: inherit;
+	margin-top: 10px;
+	font-weight: 700;
+}
+.cover-image{
+/*	background-image: url(../img/09.png);
+	background-repeat: repeat;*/
+}
+.angger-coba{
+	margin-left: -15px;
+/*	background-color: red;*/
+	width: 400px;
+	transition: width .2s ease-in;
+	border-bottom: 3px solid #000;
+}
+.angger-coba-1{
+	width: 5px;
+	background-color: red;
+	transition: 0.6s;
+}
+.angger-coba-text{
+	/*font-family: 'Apotheque';*/
+	font-weight: 700;
+}
+.judul-panas{
+	width: 3px;
+	background-color: red;
+}
+.isi-judul-panas{
+	width: 460px;
+}
+.isine-panas{
+	font-family: 'Falkin Sans PERSONAL';
+}
+.kotak-hover{
+	background-color: red;
+	width: auto;
+	height: 400px;
+	z-index: 1000; 
+	margin-top: 20px;
+}
+.haha:hover{
+	background-color: #34495e;
+}
+.haha1:hover{
+	background-color: #33383e;
+}
+/*Pengumuman*/
+.isi-pengumuman{
+	font-family: 'Roboto Light';
+	font-size: 18px;
+	font-weight: 700;
+}
+/*Pengumuman*/
+/*Register*/
+h1.res-jdl{
+	font-family: 'Roboto Light';
+	font-weight: 800;
+}
+h2.res-jdl1{
+	font-family: 'Roboto Light';
+	font-weight: 700;
+}
+/*Register*/
+/*POST PESAN ACCOUNT*/
+/*font Awesome http://fontawesome.io*/
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+/*Comment List styles*/
+.comment-list .row {
+  margin-bottom: 0px;
+}
+.comment-list .panel .panel-heading {
+  padding: 4px 15px;
+  position: absolute;
+  border:none;
+  /*Panel-heading border radius*/
+  border-top-right-radius:0px;
+  top: 1px;
+}
+.comment-list .panel .panel-heading.right {
+  border-right-width: 0px;
+  /*Panel-heading border radius*/
+  border-top-left-radius:0px;
+  right: 16px;
+}
+.comment-list .panel .panel-heading .panel-body {
+  padding-top: 6px;
+}
+.comment-list figcaption {
+  /*For wrapping text in thumbnail*/
+  word-wrap: break-word;
+}
+/* Portrait tablets and medium desktops */
+@media (min-width: 768px) {
+  .comment-list .arrow:after, .comment-list .arrow:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+  }
+  .comment-list .panel.arrow.left:after, .comment-list .panel.arrow.left:before {
+    border-left: 0;
+  }
+  /*****Left Arrow*****/
+  /*Outline effect style*/
+  .comment-list .panel.arrow.left:before {
+    left: 0px;
+    top: 10px;
+    /*Use boarder color of panel*/
+    border-right-color: inherit;
+    border-width: 16px;
+  }
+  /*Background color effect*/
+  .comment-list .panel.arrow.left:after {
+    left: 1px;
+    top: 11px;
+    /*Change for different outline color*/
+    border-right-color: #FFFFFF;
+    border-width: 15px;
+  }
+  /*****Right Arrow*****/
+  /*Outline effect style*/
+  .comment-list .panel.arrow.right:before {
+    right: -16px;
+    top: 10px;
+    /*Use boarder color of panel*/
+    border-left-color: inherit;
+    border-width: 16px;
+  }
+  /*Background color effect*/
+  .comment-list .panel.arrow.right:after {
+    right: -14px;
+    top: 11px;
+    /*Change for different outline color*/
+    border-left-color: #FFFFFF;
+    border-width: 15px;
+  }
+}
+.comment-list .comment-post {
+  margin-top: 6px;
+}
+/*POST PESAN ACCOUNT*/
+/*Footer*/
+.bold-jam{
+	color: #000;
+}
+/*Footer*/
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media (min-width: 768px){
+	span .nama{
+		font-size: 20px;
+	}
+}

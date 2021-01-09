@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Online Shop Anton</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/AdminLTE.css">
+	  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/angger_new.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/angger_baru.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/baru.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/forum.css">
+  <script type="text/javascript" src="script.js"></script>
+      <style>
+          #oke{
+            background-color:red;
+            width:200px;
+            height:200px;
+          }
+          .hilang{
+            display: none;
+          }
+          .muncul{
+            display:block;
+          }
+      </style>
+  </head>
+  <body style="padding:20px;" onload="load_first_page()">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default" style="border-color: #2ecc71;border-radius: 0;">
+            <div class="panel-heading" style="background-color: #2ecc71;border-radius: 0;">
+              <h4>Online Shop Anton <button class="btn btn-info btn-flat btn-sm pull-right" onclick="cart()">CART <span class="label label-default" id="tot">0</span></button></h4>
+            </div>
+            <div class="panel-body">
+              <!-- wates -->
+              <div id="load1"></div>
+              <div id="load2" class="hilang"></div>
+              <div id="load3" class="hilang"></div>
+              <!-- wates -->
+              <!-- <div class="col-md-6">
+                <div class="panel panel-success">
+                  <div class="panel-body">
+                      <div class="form-group">
+                          <div class="form-group">
+                            <label for="">Nama Pelanggan</label>
+                            <input type="text" class="form-control" value="'+pelanggan.$nama+'" disabled>
+                          </div>
+                          <div class="form-group">
+                            <label for="">Alamat</label>
+                            <textarea class="form-control" rows="4" disabled>'+pelanggan.$alamat+'</textarea>
+                          </div>
+                          <div class="form-group">
+                            <label for="">Kota</label>
+                            <input type="text" class="form-control" value="'+pelanggan.$kota+'" disabled>
+                          </div>
+
+                      </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

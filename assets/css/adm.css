@@ -1,0 +1,106 @@
+/*Import*/
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*Import*/
+*{
+	margin: 0;
+	padding: 0;
+}
+/*tag jdl kotak 4 atas*/
+.status:hover .ico-stat{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+/*Text*/
+p.text-jdl{
+	color: #fff;
+	font-weight: 700;
+	font-size: 25px;
+	font-family: 'Oxygen',sans-serif;
+}
+.ico-stat{
+	font-size: 70px;
+	color: rgba(0,0,0,0.7);
+}
+/*kotak*/
+.kotak-jdal{
+	width: 100%;
+	height: auto;
+}
+.statx{
+	margin-bottom: 5px;
+}
+div.statx:first-child div.jdal-warna{
+	background-color: #1abc9c;
+}
+div.statx:nth-child(2) div.jdal-warna{
+	background-color: #2ecc71;
+}
+div.statx:nth-child(3) div.jdal-warna{
+	background-color: #3498db;
+}
+div.statx:nth-child(4) div.jdal-warna{
+	background-color: #9b59b6;
+}
+.spasi{
+	padding: 8px;
+}
+.jdal{
+	cursor: pointer;
+	margin: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+}
+/*kotak*/
+/*judul*/
+a.btn-jdl{
+	text-decoration: none;
+	outline: none;
+	width: 100%;
+	color: #fff;
+}
+.btn-jdl{
+	width: 100%;
+}
+.jdal:hover{
+	background-color: rgba(0,0,0,0.7);
+}
+/*tag jdl kotak atas*/
+/*navbar*/
+.navbar-angger-custom{
+	background-color: #2c3e50;
+}
+ul.ul-nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+}
+li.li-nav{
+	float: left;
+}
+li.li-nav a.a-nav{
+	text-decoration: none;
+	outline: none;
+	padding: 20px;
+	display: block;
+	color: #fff;
+	font-family: 'Oxygen',sans-serif;
+	font-size: 20px;
+}
+li.li-nav p.p-nav{
+	display: block;
+	padding: 20px;
+	font-size: 18px;
+	font-family: 'Oxygen',sans-serif;
+	color: #fff;
+}
+li.li-nav a.a-nav:hover{
+	background-color: #34495e;
+	transition: 0.5ms;
+	color: #bdc3c7;
+}
+/*navbar*/
